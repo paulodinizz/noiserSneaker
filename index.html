@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noiser SNEAKERS</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <link href="/src/jquery.exzoom.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="main-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+              <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon" data-toggle="collapse">
+                  <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                </div>
+              </a>
+              <a href="index.html" class="navbar-brand">
+                <img src="images/logoNoiser.gif" class="img-fluid logo" alt="" />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="menu-main-menu-container">
+                  <ul id="top-menu" class="navbar-nav ml-auto">
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#">Nike</a></li>
+                    <li class="menu-item"><a href="#">Adidas</a></li>
+                    <li class="menu-item">
+                      <a href="#">MORE SNEAKERS</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">PUMA</a></li>
+                        <li class="menu-item"><a href="#">Asics</a></li>
+                        <li class="menu-item"><a href="#">New Balance</a></li>
+                        <li class="menu-item"><a href="#">Mizuno</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-more-menu">
+                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton" data-toggle="more-toggle"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-ellipsis-h"></i>
+                </a>
+                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="navbar-right position-relative">
+                    <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                      <li>
+                        <a href="#" class="search-toggle">
+                          <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search-box iq-search-bar">
+                          <form action="#" class="searchbox">
+                            <div class="form-group position-relative">
+                              <input type="text" class="text search-input font-size-12"
+                                placeholder="type here to search..." />
+                              <i class="search-link fa fa-search"></i>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                      <li class="nav-item nav-icon">
+                        <a href="#" class="search-toggle position-relative">
+                          <i class="fa fa-shopping-bag"></i>
+                          <span class="bg-danger dots"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                          <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="" />
+                        </a>
+                        <div class="iq-sub-dropdown iq-user-dropdown">
+                          <div class="iq-card shadow-none m-0">
+                            <div class="iq-card-body p-0 pl-3 pr-3">
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-user text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Manage Profile</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-cog text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Settings</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-sign-out text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Logout</h6>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navbar-right menu-right">
+                <ul class="d-flex align-items-center list-inline m-0">
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="search-toggle device-search">
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <div class="search-box iq-search-bar d-search">
+                      <form action="#" class="searchbox">
+                        <div class="form-group position-relative">
+                          <input type="text" class="text search-input font-size-12"
+                            placeholder="type here to search..." />
+                          <i class="search-link fa fa-search"></i>
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="search-toggle" data-toggle="search-toggle">
+                      <i class="fa fa-shopping-bag"></i>
+                      <span class="bg-danger dots"></span>
+                    </a>
+                    <div class="iq-sub-dropdown">
+                      <div class="iq-card shadow-none m-0">
+                        <div class="iq-card-body">
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0"></h6>
+                                <small class="font-size-12"></small>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0"></h6>
+                                <small class="font-size-12"></small>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0"></h6>
+                                <small class="font-size-12"></small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center p-0">
+                      <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="" />
+                    </a>
+                    <div class="iq-sub-dropdown iq-user-dropdown">
+                      <div class="iq-card shadow-none m-0">
+                        <div class="iq-card-body p-0 pl-3 pr-3">
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-user text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Manage Profile</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-cog text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Settings</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-sign-out text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Logout</h6>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- slider starts  -->
+  <section id="home" class="iq-main-slider p-0">
+    <div id="home-slider" class="slider m-0 p-0">
+      <div class="slide slick-bg s-bg-1">
+        <div class="container-fluid position-relative h-100">
+          <div class="slider-inner h-100">
+            <div class="row align-items-center h--100">
+              <div class="col-xl-6 col-lg-12 col-md-12">
+                <a href="javascript:void(0)">
+                  <div class="channel-logo" data-animation-in="fadeInLeft" data-delay-in="0.5">
+                    <img src="" class="c-logo" alt="" />
+                  </div>
+                </a>
+                <h1 class="slider-text big-title title text-uppercase" data-animation-in="fadeInLeft"
+                  data-delay-in="0.6">
+                  Air Force One OffWhite Blue
+                </h1>
+                <div class="d-flex flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1">
+                  <div class="d-flex align-items-center mt-2 mt-md-3">
+                  </div>
+                </div>
+                <p data-animation-in="fadeInUp">
+                  The Off-White Nike Air Force 1 originally debuted in November of 2017 as part of Virgil
+                  Ablohs “The Ten” collection with Nike. A royal blue version was release in conjunction with
+                  Chicago's Museum Of Contemporary in June of 2019.
+                </p>
+                <div class="trending-list" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <div class="text-primary title starring">
+                    Designer :
+                    <span class="text-body">Virgil Abloh</span>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="#" class="btn btn-hover iq-button" data-toggle="modal" data-target="#modalFirstSlide"><i class=""></i>Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
+              <a href="https://www.youtube.com/watch?v=QkaV5OUgrks" target="_blank" class="video-open playbtn">
+                <img src="images/play.png" class="play" alt="" />
+                <span class="w-trailor">Watch Unboxing</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slick-bg s-bg-2">
+        <div class="container-fluid position-relative h-100">
+          <div class="slider-inner h-100">
+            <div class="row align-items-center h--100">
+              <div class="col-xl-6 col-lg-12 col-md-12">
+                <a href="javascript:void(0)">
+                  <div class="channel-logo" data-animation-in="fadeInLeft" data-delay-in="0.5">
+                    <img src="" class="c-logo" alt="" />
+                  </div>
+                </a>
+                <h1 class="slider-text big-title title text-uppercase" data-animation-in="fadeInLeft"
+                  data-delay-in="0.6">
+                  Dunk Low Siempre Familia
+                </h1>
+                <div class="d-flex flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1">
+                </div>
+                <p data-animation-in="fadeInUp">
+                  This new Nike Dunk Low “Siempre Familia” (Always Family) pushes the envelope in material execution,
+                  with reptilian textured uppers, Latin-American-inspired color pops, and translucent, too.
+                </p>
+                <div class="trending-list" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <div class="text-primary title starring">
+                    Designer :
+                    <span class="text-body">Nike</span>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="#" class="btn btn-hover iq-button"><i class="fa fa-usd mr-3"></i>Buy Now</a>
+                  <a href="#" class="btn btn-link">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
+              <a href="https://www.youtube.com/watch?v=k01M_p6WC5M" target="_blank" class="video-open playbtn">
+                <img src="images/play.png" class="play" alt="" />
+                <span class="w-trailor">Watch Unboxing</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slick-bg s-bg-3">
+        <div class="container-fluid position-relative h-100">
+          <div class="slider-inner h-100">
+            <div class="row align-items-center h--100">
+              <div class="col-xl-6 col-lg-12 col-md-12">
+                <a href="javascript:void(0)">
+                  <div class="channel-logo" data-animation-in="fadeInLeft" data-delay-in="0.5">
+                    <img src="" class="c-logo" alt="" />
+                  </div>
+                </a>
+                <h1 class="slider-text big-title title text-uppercase" data-animation-in="fadeInLeft"
+                  data-delay-in="0.6">
+                  Air Jordan One Dior
+                </h1>
+                <div class="d-flex flex-wrap align-items-center fadeInLeft animated" data-animation-in="fadeInLeft"
+                  style="opacity: 1">
+                </div>
+                <p data-animation-in="fadeInUp">
+                  The special AJ1 is made entirely in Italy featuring a mixture of white and
+                  Dior Gray leather, with an Oblique monogrammed Swoosh and hand-painted edges
+                  "Air Dior" has also been applied to Jordan's familiar Wings logo.
+                </p>
+                <div class="trending-list" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <div class="text-primary title starring">
+                    Designer :
+                    <span class="text-body">Martin Lotti.</span>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2">
+                  <a href="#" class="btn btn-hover iq-button"><i class="fa fa-usd mr-3"></i>Buy Now</a>
+                  <a href="#" class="btn btn-link">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
+              <a href="https://www.youtube.com/watch?v=dw_aYDwEv6k4" target="_blank" class="video-open playbtn">
+                <img src="images/play.png" class="play" alt="" />
+                <span class="w-trailor">Watch Unboxing</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- slider ends -->
+  <div class="modal fade" id="modalFirstSlide" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-8 col-sm-6 leftCard">
+              <div class="slideBuyTenis">
+                <div class="containerSubImg">
+                  <ul class="exzoom_img_ul">
+                    <div class="subImg1">
+                      <li><img src="./images/buyModal/AF1OffWhiteBlue/AF1OWBlueBack.jpeg" alt=""></li>
+                    </div>
+                    <div class="subImg2 img-fluid">
+                      <li><img src="./images/buyModal/AF1OffWhiteBlue/AF1OWBlueLeft.jpeg" alt=""></li>
+                    </div>
+                    <div class="subImg3 img-fluid">
+                      <li><img src="./images/buyModal/AF1OffWhiteBlue/AF1OWBlueRight.png" alt=""></li>
+                    </div>
+                    <div class="subImg4 img-fluid">
+                      <li><img src="./images/buyModal/AF1OffWhiteBlue/AF1OWBlueBottom.jpeg" alt=""></li>
+                    </div>
+                  </ul>
+                </div>
+                <div class="mainImg img-fluid">
+                  <img class="img-zoom" src="./images/buyModal/AF1OffWhiteBlue/AF1OWBlue.jpeg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-6 rightCard">
+              <h2>Nike<br><br> Air Force One Off White Blue<br><br> $150</h2>
+              <div class="container">
+                <div class="select-box">
+                  <div class="options-container">
+                    <div class="option">
+                      <input type="radio" class="radio" id="35" name="category">
+                      <label for="35">35</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="36" name="category">
+                      <label for="36">36</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="37" name="category">
+                      <label for="37">37</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="38" name="category">
+                      <label for="38">38</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="39" name="category">
+                      <label for="39">39</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="40" name="category">
+                      <label for="40">40</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="41" name="category">
+                      <label for="41">41</label>
+                    </div>
+                    <div class="option">
+                      <input type="radio" class="radio" id="42" name="category">
+                      <label for="42">42</label>
+                    </div>
+                  </div>
+                  <div class="selected">
+                    Select your size
+                  </div>
+                </div>
+              </div>
+              <div class="containerZip">
+                <div class="zipCode">
+                  <input type="text" id="zipcode" value="" placeholder="Zip Code">
+                  <label for="zipcode"></label>
+                  <button class="btn-zipCode">Submit</button>
+                </div>
+              </div>
+              <div class="containerBuy">
+                <button class="btn-checkout">CHECKOUT</button>
+                <button class="btn-addToCart">
+                  <img src="images/shoppingCart.png" alt="">
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-9 downCard">
+              <h4>DESCRIÇÃO</h4>
+              <p>
+                Virgil Abloh added yet another colorway to his coveted selection of Off-White Air Force 1 iterations that will forever preserve his Figures of Speech exhibit in sneaker history. Having the first pair exclusively gifted to Serena Williams in May of 2019, these Air Force 1 Low Off-White MCA University Blues were one of Virgil's many highly anticipated releases of 2019. Between dropping via stash bots and through a super exclusive raffle at Chicago’s Museum of Contemporary Art, the shoe’s namesake, this Air Force 1 Low Off-White MCA University Blue is one of Virgil’s rarest grails.
+
+                The Air Force 1 Low Off-White MCA University Blue boasts a sky blue leather upper and midsole, a reflective silver deconstructed Nike Swoosh, a red zip tie, white laces and the classic Off-White™ branding below the medial swoosh.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- main content starts  -->
+  <div class="main-content">
+    <!-- favorite section starts   -->
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Air Force 1</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/f1.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Force 1 Shadow </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/f2.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Force 1 '07 LV8 </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/f3.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Force 1 '07 LX </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/f4.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Force 1 '07 LXX </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/f5.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Force 1 '07 PRM </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- favourite section ends -->
+
+    <!-- upcoming contents section starts  -->
+    <section id="iq-upcoming-movie">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Air Jordan 1</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/popular/u1.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Jordan 1 Mid SE </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/popular/u2.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Jordan 1 Low </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/popular/u3.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Jordan 1 Zoom Air Comfort </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/popular/u4.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Jordan 5 Retro </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/popular/u5.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Air Jordan XI Low </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- upcoming contents section ends -->
+
+    <section id="iq-suggested" class="s-margin">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Air Max</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/suggested/01.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Max 90 EOI </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/suggested/02.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Max 95 Essential </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/suggested/03.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Max Excee </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/suggested/04.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Max 97 </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/suggested/05.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Nike Air Max SC </a>
+                      </h6>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-usd mr-1"></i>
+                          Buy Now
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trending section  -->
+  </div>
+
+  <!-- main content ends  -->
+  <footer class="iq-bg-dark">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row footer-standard">
+          <div class="col-lg-5">
+            <div class="widget text-left">
+              <div>
+                <ul class="menu p-0">
+                  <li><a>Developed by: Paulo Diniz</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="/src/jquery.exzoom.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
